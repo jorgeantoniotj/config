@@ -1,14 +1,31 @@
 {
-    "posts": [
-      { "id": 1, "title": "Post 1" },
-      { "id": 2, "title": "Post 2" },
-      { "id": 3, "title": "Post 3" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
-    ],
-    "profile": {
-      "name": "typicode"
+    "cognito": {
+      "arn": "arn:aws:cognito-idp:us-west-2:658104271316:userpool/us-west-2_Zk6rtYu6W", 
+      "domain": "staging-mx-user-auth-service.auth.us-west-2.amazoncognito.com",
+      "user_pool_id": "us-west-2_Zk6rtYu6W",
+      "web_client_id": "572tbl750081hn0tsnpsmrnma5",
+      "redirect_sign_in": "arquetype://home",
+      "redirect_sign_out": "arquetype://login"
+    },
+    "cms": {
+      "endpoint": "https://store-cms.prismic.io/graphql", 
+      "token": "MC5YOTA4QmhBQUFDTUFoc0tt.77-977-977-977-977-9bGdJU0Mh77-9S1vvv70hD2bvv73vv71Tdu-_ve-_ve-_vSjvv73vv73vv70NTks"
+    },
+    "api": {
+      "endpoint": "https://staging-api.modelorama.online/graphql/gateway"
+    },
+    "help_desk": {
+      "endpoint": "https://newaccount1612280929449.freshdesk.com/api/v2/",
+      "token": "b2t4S080V0pkNkM0eGxMYWZFYVI=",
+      "terms_and_conditions_folder_id": "70000001530",
+      "faqs_folder_id": "70000000635"
+    },
+    "rudderstack": {
+      "write_key": "1rCnEjdJmvpFEE2HKKqosxSjxPT",
+      "data_plane_url": "https://zxdimitrijsvirh.dataplane.rudderstack.com"
+    },
+    "clevertap": {
+      "account_id": "TEST-4WZ-7WR-8Z6Z",
+      "token": "TEST-20a-104"
     }
   }
