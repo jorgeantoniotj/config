@@ -14,12 +14,6 @@
     "api": {
       "endpoint": "https://staging-api.modelorama.online/graphql/gateway"
     },
-    "help_desk": {
-      "endpoint": "https://newaccount1612280929449.freshdesk.com/api/v2/",
-      "token": "b2t4S080V0pkNkM0eGxMYWZFYVI=",
-      "terms_and_conditions_folder_id": "70000001530",
-      "faqs_folder_id": "70000000635"
-    },
     "rudderstack": {
       "write_key": "1rCnEjdJmvpFEE2HKKqosxSjxPT",
       "data_plane_url": "https://zxdimitrijsvirh.dataplane.rudderstack.com"
